@@ -51,7 +51,7 @@ export default function NotFound() {
               { label: "Violation Types", href: "/violation-types", desc: "Torture, detention, expression, religion, gender, LGBT" },
               { label: "Expert Services", href: "/services", desc: "Article 3, torture, detention, defender risk reports" },
               { label: "Human Rights Framework", href: "/human-rights-framework", desc: "ICCPR, CAT, CEDAW, ECHR treaty standards guide" },
-              { label: "Article 3 Deportation", href: "/article-3-deportation", desc: "Removal risk, Soering, AAA, DD Afghanistan" },
+              { label: "Article 3 Deportation", href: "/article-3-deportation", desc: "Removal risk, Soering, AAA [2023] UKSC, DD [2024] UKSC" },
             ].map((item) => (
               <Link
                 key={item.href}

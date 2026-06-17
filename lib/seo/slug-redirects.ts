@@ -4,6 +4,8 @@ export const SLUG_REDIRECTS: Record<string, string> = {
   "/persecution-types": "/violation-types",
   "/what-is-a-persecution-expert": "/what-is-a-human-rights-expert-witness",
   "/what-is-a-persecution-expert-witness": "/what-is-a-human-rights-expert-witness",
+  "/country-experts": "/human-rights-framework",
+  "/services/country-condition-reports": "/services/human-rights-conditions-reports",
 };
 
 /** Legacy persecution-type slugs → violation-type slugs (Appendix F) */

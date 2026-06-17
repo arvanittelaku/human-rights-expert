@@ -15,7 +15,6 @@ import {
   getViolationTypeRelatedLinks,
   getPillarRelatedLinks,
   getHomepageRelatedLinks,
-  getCountryExpertsRelatedLinks,
   VIOLATION_REQUIRED_HREFS,
   HOME_REQUIRED_HREFS,
 } from "../data/related-links";
@@ -111,7 +110,7 @@ function verifyInternalLinking(): string[] {
       errors.push(`Pillar related links missing: ${path}`);
     }
   }
-  for (const path of ["/how-reports-work", "/country-experts", "/how-to-instruct", "/contact"]) {
+  for (const path of ["/how-reports-work", "/violation-types", "/how-to-instruct", "/contact"]) {
     if (!pillarLinks.includes(path)) {
       errors.push(`Pillar related links missing: ${path}`);
     }
@@ -121,21 +120,6 @@ function verifyInternalLinking(): string[] {
   for (const path of HOME_REQUIRED_HREFS) {
     if (!homeLinks.includes(path)) {
       errors.push(`Homepage related links missing: ${path}`);
-    }
-  }
-
-  const countryLinks = hrefs(getCountryExpertsRelatedLinks());
-  for (const path of [
-    "/human-rights-framework",
-    "/article-3-deportation",
-    "/violation-types/torture-cruel-inhuman-treatment",
-    "/violation-types/human-rights-defenders-journalists",
-    "/violation-types/womens-human-rights-violations",
-    "/violation-types/lgbt-human-rights-violations",
-    "/how-to-instruct",
-  ]) {
-    if (!countryLinks.includes(path)) {
-      errors.push(`Country-experts related links missing: ${path}`);
     }
   }
 

@@ -10,7 +10,7 @@ const WHAT_IS_FAQS = [
   {
     question: "What is a human rights expert witness?",
     answer:
-      "A human rights expert witness is an independent specialist who provides expert analysis of human rights violations and return risk for UK immigration tribunals, applying ICCPR, CAT, CEDAW, ICERD, and ECHR standards across all countries.",
+      "A human rights expert witness is an independent specialist who provides expert analysis of human rights violations and return risk for UK immigration tribunals, applying ICCPR, CAT, CEDAW, ICERD, and ECHR standards through a neutral thematic framework.",
   },
   {
     question: "When should I instruct a human rights expert instead of a persecution expert?",
@@ -27,7 +27,7 @@ const WHAT_IS_FAQS = [
 export const metadata = createMetadata({
   title: "What Is a Human Rights Expert Witness? | UK Immigration Tribunal Role",
   description:
-    "A human rights expert witness provides independent analysis of human rights violations and return risk for UK immigration tribunals: Article 3, treaty standards, country conditions, and violation severity explained.",
+    "A human rights expert witness provides independent analysis of human rights violations and return risk for UK immigration tribunals: Article 3, treaty standards, conditions on return, and violation severity explained.",
   path: "/what-is-a-human-rights-expert-witness",
 });
 
@@ -56,12 +56,12 @@ export default function WhatIsAHumanRightsExpertPage() {
       >
         <p className="mb-4 text-[#374151] leading-relaxed">
           A human rights expert witness is an independent specialist who provides expert analysis of human rights
-          violations and return risk for UK immigration tribunals. Unlike country-specific expert witnesses who focus on
-          conditions in a single jurisdiction, human rights experts apply international treaty standards (ICCPR, CAT,
-          CEDAW, ICERD, ECHR) to assess violation severity and return risk across all countries.
+          violations and return risk for UK immigration tribunals. Human rights experts apply international treaty
+          standards (ICCPR, CAT, CEDAW, ICERD, ECHR) to assess violation severity and return risk through a neutral,
+          thematic framework rather than geographic specialisation.
         </p>
         <p className="mb-4 text-[#374151] leading-relaxed">
-          Human rights experts sit at the intersection of country conditions evidence and human rights law. They assess
+          Human rights experts sit at the intersection of conditions on return evidence and human rights law. They assess
           whether documented violations reach the severity threshold for asylum, subsidiary protection, or Article 3
           non-refoulement. Their reports address torture and ill-treatment, arbitrary detention, freedom of expression and
           religion, women&apos;s and LGBT human rights, human rights defenders at risk, and extrajudicial killings and
@@ -69,8 +69,8 @@ export default function WhatIsAHumanRightsExpertPage() {
         </p>
         <p className="mb-4 text-[#374151] leading-relaxed">
           In Article 3 deportation and removal cases, human rights experts assess whether return would expose the
-          appellant to a real risk of torture or inhuman or degrading treatment. They apply Soering, Chahal, AAA
-          (Somalia), and DD (Afghanistan) jurisprudence alongside current treaty body and NGO documentation.
+          appellant to a real risk of torture or inhuman or degrading treatment. They apply Soering, Chahal, AAA [2023]
+          UKSC, and DD [2024] UKSC jurisprudence alongside current treaty body and NGO documentation.
         </p>
 
         <h2 id="human-rights-vs-persecution" className="mt-10 scroll-mt-24 text-2xl font-bold text-[#0A2540]">
@@ -101,7 +101,7 @@ export default function WhatIsAHumanRightsExpertPage() {
               <tr className="bg-[#F4F7FB]">
                 <td className="border border-[#C8D4E4] px-4 py-3 font-medium">Key sources</td>
                 <td className="border border-[#C8D4E4] px-4 py-3">ICCPR, CAT, CEDAW, ECHR, treaty body reports, OHCHR</td>
-                <td className="border border-[#C8D4E4] px-4 py-3">Refugee Convention, country guidance, persecution methodology</td>
+                <td className="border border-[#C8D4E4] px-4 py-3">Refugee Convention, Upper Tribunal guidance, persecution methodology</td>
               </tr>
               <tr className="bg-white">
                 <td className="border border-[#C8D4E4] px-4 py-3 font-medium">When to instruct</td>

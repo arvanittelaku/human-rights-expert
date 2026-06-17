@@ -6,7 +6,7 @@ import { createMetadata } from "@/lib/metadata";
 export const metadata = createMetadata({
   title: "How to Instruct a Human Rights Expert Witness | UK Solicitors Guide",
   description:
-    "How to instruct a human rights expert witness: identify the violation type, choose human rights or country expert, Legal Aid funding, letter of instruction, documents, and oral evidence.",
+    "How to instruct a human rights expert witness: identify the violation type, confirm treaty standards, Legal Aid funding, letter of instruction, documents, and oral evidence.",
   path: "/how-to-instruct",
 });
 
@@ -20,9 +20,9 @@ export default function HowToInstructPage() {
         "Determine the violation type (torture, arbitrary detention, expression, religion, women's rights, LGBT rights, HR defenders, state violence), whether Article 3 deportation risk is engaged, and which treaty standards apply (ICCPR, CAT, CEDAW, ECHR).",
     },
     {
-      title: "Section 2: Human Rights Expert or Country Expert (or Both)?",
+      title: "Section 2: Confirm Treaty Standards and Violation Type",
       content:
-        "Human rights experts provide the treaty standards and violation framework applicable in any country. Country experts provide detailed country-specific conditions and CPIN analysis. Instruct both where the claim requires human rights law analysis and detailed local conditions evidence.",
+        "Human rights experts apply ICCPR, CAT, CEDAW, ICERD, and ECHR standards to assess violation severity and return risk for the appellant's profile. Identify whether Article 3 deportation risk, torture analysis, or a specific violation category is the primary focus of the instruction.",
     },
     {
       title: "Section 3: Legal Aid or Privately Funded?",
@@ -37,7 +37,7 @@ export default function HowToInstructPage() {
     {
       title: "Section 5: Documents to Provide",
       content:
-        "Provide witness statements, Home Office decision and reasons, CPIN, medical reports, previous expert reports, country documentation, and tribunal directions. A complete document bundle improves report quality and tribunal acceptance.",
+        "Provide witness statements, Home Office decision and reasons, CPIN, medical reports, previous expert reports, relevant policy documentation, and tribunal directions. A complete document bundle improves report quality and tribunal acceptance.",
     },
     {
       title: "Section 6: Report and Written Questions",

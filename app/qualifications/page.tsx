@@ -29,14 +29,17 @@ export default function QualificationsPage() {
           tribunal acceptance in human rights cases.
         </p>
 
-        <h2 className="mt-8 text-xl font-bold text-[#0A2540]">Thematic vs Country Expertise</h2>
+        <h2 className="mt-8 text-xl font-bold text-[#0A2540]">Thematic Human Rights Expertise</h2>
         <p className="mt-4 mb-4 text-[#374151] leading-relaxed">
-          Human rights framework experts provide treaty standards and violation analysis applicable across all countries.
-          Country experts provide detailed country-specific conditions and CPIN analysis. Instruct a human rights expert
-          where the claim turns on treaty standards, violation severity, or Article 3 return risk. Instruct a country
-          expert where detailed local conditions evidence is required. Instruct both in complex claims. See our{" "}
-          <Link href="/country-experts" className="text-[#C8922A] hover:underline">
-            country expert network
+          Human rights experts on this site provide treaty standards and violation analysis through a neutral, thematic
+          framework. They assess ICCPR, CAT, CEDAW, ICERD, and ECHR benchmarks, violation severity, and return risk for
+          the appellant&apos;s specific profile. See our{" "}
+          <Link href="/human-rights-framework" className="text-[#C8922A] hover:underline">
+            human rights framework guide
+          </Link>{" "}
+          and{" "}
+          <Link href="/how-reports-work" className="text-[#C8922A] hover:underline">
+            how reports work
           </Link>
           .
         </p>

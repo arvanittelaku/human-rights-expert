@@ -49,7 +49,6 @@ export function Footer() {
               <li><Link href="/how-reports-work" className="inline-flex min-h-[44px] items-center hover:text-white">How Reports Work</Link></li>
               <li><Link href="/guides" className="inline-flex min-h-[44px] items-center hover:text-white">Solicitor Guides</Link></li>
               <li><Link href="/how-to-instruct" className="inline-flex min-h-[44px] items-center hover:text-white">How to Instruct</Link></li>
-              <li><Link href="/country-experts" className="inline-flex min-h-[44px] items-center hover:text-white">Country Experts</Link></li>
               <li><Link href="/qualifications" className="inline-flex min-h-[44px] items-center hover:text-white">Qualifications</Link></li>
               <li><Link href="/glossary" className="inline-flex min-h-[44px] items-center hover:text-white">Glossary</Link></li>
               <li><Link href="/what-is-a-human-rights-expert-witness" className="inline-flex min-h-[44px] items-center hover:text-white">What is a Human Rights Expert?</Link></li>

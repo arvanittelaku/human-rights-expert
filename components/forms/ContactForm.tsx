@@ -83,10 +83,10 @@ export function ContactForm() {
           </select>
         </div>
         <div className="min-w-0">
-          <label className={labelClass} htmlFor="country_of_origin">
-            Country of Origin
+          <label className={labelClass} htmlFor="return_destination">
+            Return destination (optional)
           </label>
-          <input id="country_of_origin" name="country_of_origin" className={inputClass} />
+          <input id="return_destination" name="country_of_origin" className={inputClass} />
         </div>
       </div>
 

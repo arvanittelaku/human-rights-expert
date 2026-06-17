@@ -33,7 +33,7 @@ export default function HomePage() {
             Human Rights Experts connects UK immigration solicitors, barristers, and Legal Aid practitioners with
             qualified human rights expert witnesses for asylum appeals, human rights appeals, deportation and removal
             proceedings, and immigration tribunal cases. Independent analysis of human rights violations, treaty
-            standards, and return risk across all countries.
+            standards, and return risk using a neutral, thematic framework.
           </p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
             <Link
@@ -56,16 +56,16 @@ export default function HomePage() {
         <div className="mx-auto min-w-0 max-w-6xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-xl font-bold text-[#0A2540] sm:text-2xl md:text-3xl">Why Human Rights Expert Evidence Matters</h2>
           <p className="mt-4 max-w-3xl text-[#374151] leading-relaxed">
-            Unlike country-specific expert witness sites, human rights experts provide the overarching international human
-            rights law framework applicable in any country. Home Office refusals often fail to apply treaty standards or
-            assess violation severity correctly. Independent expert evidence on Article 3 deportation risk, ICCPR, CAT,
-            CEDAW standards, and human rights violation analysis is essential for FTT and Upper Tribunal proceedings.
+            Human rights experts provide independent analysis of international treaty standards, violation severity, and
+            return risk for UK immigration tribunals. Home Office refusals often fail to apply ICCPR, CAT, CEDAW, and ECHR
+            benchmarks correctly. Expert evidence on Article 3 deportation risk and human rights violations is essential
+            for FTT and Upper Tribunal proceedings.
           </p>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
                 title: "Treaty Standards Analysis",
-                desc: "Expert reports applying ICCPR, CAT, CEDAW, ICERD, and ECHR standards to assess human rights violations and return risk in any country.",
+                desc: "Expert reports applying ICCPR, CAT, CEDAW, ICERD, and ECHR standards to assess human rights violations and return risk for the appellant's profile.",
               },
               {
                 title: "Practice Direction Compliant",
@@ -90,7 +90,7 @@ export default function HomePage() {
           <h2 className="text-xl font-bold text-[#0A2540] sm:text-2xl">Violation Types</h2>
           <p className="mt-2 max-w-3xl text-[#374151]">
             Thematic human rights violation analysis covering torture, detention, expression, religion, gender, LGBT
-            rights, defenders, and state violence across all countries.
+            rights, defenders, and state violence.
           </p>
           <div className="mt-8">
             <CardGrid
@@ -114,8 +114,8 @@ export default function HomePage() {
             <Link href="/how-reports-work" className="inline-flex min-h-[44px] items-center font-semibold text-[#C8922A] hover:underline">
               How Reports Work
             </Link>
-            <Link href="/country-experts" className="inline-flex min-h-[44px] items-center font-semibold text-[#C8922A] hover:underline">
-              Country expert network
+            <Link href="/qualifications" className="inline-flex min-h-[44px] items-center font-semibold text-[#C8922A] hover:underline">
+              Expert qualifications
             </Link>
           </div>
         </div>

@@ -24,7 +24,6 @@ export const resourcesNavLinks = [
   { label: "How Reports Work", href: "/how-reports-work" },
   { label: "Solicitor Guides", href: "/guides" },
   { label: "How to Instruct", href: "/how-to-instruct" },
-  { label: "Country Experts", href: "/country-experts" },
   { label: "Qualifications", href: "/qualifications" },
   { label: "Glossary", href: "/glossary" },
   { label: "What is a Human Rights Expert?", href: "/what-is-a-human-rights-expert-witness" },

@@ -9,7 +9,7 @@ import { articleSchema } from "@/lib/schema";
 import { getPillarRelatedLinks } from "@/data/related-links";
 
 const PAGE_DESCRIPTION =
-  "Expert guide to Article 3 ECHR deportation and removal cases for UK solicitors: Soering standard, real risk of torture, inhuman or degrading treatment, AAA Somalia, DD Afghanistan, and expert evidence requirements.";
+  "Expert guide to Article 3 ECHR deportation and removal cases for UK solicitors: Soering standard, real risk of torture, inhuman or degrading treatment, leading Supreme Court return risk authority, and expert evidence requirements.";
 
 export const metadata = createMetadata({
   title: "Article 3 ECHR Deportation Expert UK | Removal Risk Reports 2025–2026",
@@ -75,8 +75,8 @@ export default function Article3DeportationPage() {
               </tr>
               <tr className="bg-[#F4F7FB]">
                 <td className="border border-[#C8D4E4] px-4 py-3 font-medium">Generalised violence</td>
-                <td className="border border-[#C8D4E4] px-4 py-3">HN (Sudan) [2020]; Article 15(c) overlap</td>
-                <td className="border border-[#C8D4E4] px-4 py-3">Country-specific analysis required</td>
+                <td className="border border-[#C8D4E4] px-4 py-3">HN [2020] UKUT; Article 15(c) overlap</td>
+                <td className="border border-[#C8D4E4] px-4 py-3">Profile-specific analysis required</td>
               </tr>
               <tr className="bg-white">
                 <td className="border border-[#C8D4E4] px-4 py-3 font-medium">Medical conditions</td>
@@ -85,8 +85,8 @@ export default function Article3DeportationPage() {
               </tr>
               <tr className="bg-[#F4F7FB]">
                 <td className="border border-[#C8D4E4] px-4 py-3 font-medium">Failed asylum returnees</td>
-                <td className="border border-[#C8D4E4] px-4 py-3">Country-specific; diaspora support tests</td>
-                <td className="border border-[#C8D4E4] px-4 py-3">AAA Somalia [2023] UKSC</td>
+                <td className="border border-[#C8D4E4] px-4 py-3">Profile-specific; diaspora support tests</td>
+                <td className="border border-[#C8D4E4] px-4 py-3">AAA [2023] UKSC</td>
               </tr>
               <tr className="bg-white">
                 <td className="border border-[#C8D4E4] px-4 py-3 font-medium">Interim measures</td>
@@ -95,28 +95,28 @@ export default function Article3DeportationPage() {
               </tr>
               <tr className="bg-[#F4F7FB]">
                 <td className="border border-[#C8D4E4] px-4 py-3 font-medium">Expert evidence role</td>
-                <td className="border border-[#C8D4E4] px-4 py-3">Independent country conditions + profile</td>
+                <td className="border border-[#C8D4E4] px-4 py-3">Independent conditions on return + profile</td>
                 <td className="border border-[#C8D4E4] px-4 py-3">Beyond CPIN reproduction</td>
               </tr>
             </tbody>
           </table>
         </ResponsiveTableWrap>
 
-        <h2 id="aaa-somalia" className="mt-10 scroll-mt-24 text-2xl font-bold text-[#0A2540]">AAA (Somalia) [2023] and Return Risk</h2>
+        <h2 id="aaa-2023" className="mt-10 scroll-mt-24 text-2xl font-bold text-[#0A2540]">AAA [2023] UKSC and Return Risk</h2>
         <p className="mt-4 mb-4 text-[#374151] leading-relaxed">
-          The Supreme Court in AAA (Somalia) [2023] addressed return risk for failed asylum seekers without clan
-          protection in Mogadishu. The decision established that diaspora profile, lack of support networks, and visibility
-          as a failed asylum returnee can create enhanced Article 3 risk. Human rights experts assess whether similar
-          principles apply to the appellant&apos;s country and profile, analysing returnee vulnerability beyond general
-          country conditions in CPINs.
+          The Supreme Court in AAA [2023] UKSC addressed return risk for failed asylum seekers without support networks.
+          The decision established that diaspora profile, lack of support networks, and visibility as a failed asylum
+          returnee can create enhanced Article 3 risk. Human rights experts assess whether similar principles apply to
+          the appellant&apos;s return destination and profile, analysing returnee vulnerability beyond general conditions
+          in CPINs.
         </p>
 
-        <h2 id="dd-afghanistan" className="mt-10 scroll-mt-24 text-2xl font-bold text-[#0A2540]">DD (Afghanistan) [2024] and Taliban Return</h2>
+        <h2 id="dd-2024" className="mt-10 scroll-mt-24 text-2xl font-bold text-[#0A2540]">DD [2024] UKSC and Changed Conditions on Return</h2>
         <p className="mt-4 mb-4 text-[#374151] leading-relaxed">
-          DD (Afghanistan) [2024] UKSC analysed return conditions under Taliban rule, addressing risk for women, Hazaras,
-          and those with imputed Western affiliation. The decision confirms that country conditions analysis must be
-          current and profile-specific. Experts must apply updated treaty body and NGO documentation rather than relying
-          on outdated CPIN material when assessing Taliban-era return risk.
+          DD [2024] UKSC analysed return conditions where the situation on return had changed materially, addressing risk
+          for women, protected minority profiles, and those with imputed Western affiliation. The decision confirms that
+          conditions on return analysis must be current and profile-specific. Experts must apply updated treaty body and
+          NGO documentation rather than relying on outdated CPIN material.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-[#0A2540]">When to Instruct a Human Rights Expert in Removal Cases</h2>
@@ -131,23 +131,22 @@ export default function Article3DeportationPage() {
         <p className="mt-4 mb-4 text-[#374151] leading-relaxed">
           Reports must comply with Practice Direction paragraph 10, CPR Part 35, and Ikarian Reefer duties of
           independence and objectivity. Content should include qualifications, methodology, sources, applicable human
-          rights standards, country conditions for the specific profile, violation severity analysis, return risk opinion,
+          rights standards, conditions on return for the specific profile, violation severity analysis, return risk opinion,
           and statement of truth. The Adam Pipe October 2025 guide sets updated tribunal expectations. Reports are limited
           to 20 pages unless permission is granted under PD 9.2 and 9.3.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-[#0A2540]">Relationship to Country Expert Evidence</h2>
+        <h2 className="mt-10 text-2xl font-bold text-[#0A2540]">Human Rights Expert Evidence in Removal Cases</h2>
         <p className="mt-4 mb-4 text-[#374151] leading-relaxed">
-          Human rights framework experts and country experts serve complementary roles. Human rights experts apply treaty
-          standards and violation severity methodology; country experts provide detailed local conditions, CPIN analysis,
-          and regional assessment. Instruct both where the case requires human rights law analysis and detailed
-          country-specific evidence. See our{" "}
-          <Link href="/country-experts" className="text-[#C8922A] hover:underline">
-            country expert network
-          </Link>{" "}
-          and{" "}
+          Human rights experts apply treaty standards and violation severity methodology to assess whether return would
+          breach Article 3. Reports address applicable instruments, documented violation patterns, conditions on return,
+          and reasoned opinion independent of Home Office CPIN summaries. See our{" "}
           <Link href="/human-rights-framework" className="text-[#C8922A] hover:underline">
             human rights framework guide
+          </Link>{" "}
+          and{" "}
+          <Link href="/how-reports-work" className="text-[#C8922A] hover:underline">
+            how reports work
           </Link>
           .
         </p>

@@ -51,8 +51,7 @@ export default function HumanRightsFrameworkPage() {
           Home Office decisions frequently fail to apply international human rights standards or assess whether documented
           violations reach the severity threshold for protection. Tribunals require independent expert analysis when claims
           engage Article 3 deportation risk, torture standards under CAT, women&apos;s rights under CEDAW, or broader civil
-          and political rights under ICCPR. Human rights experts sit at the intersection of country conditions evidence
-          and human rights law, assessing whether documented violations reach the threshold for asylum, subsidiary
+          and political rights under ICCPR.           Human rights experts sit at the intersection of conditions on return evidence and human rights law, assessing whether documented violations reach the threshold for asylum, subsidiary
           protection, or Article 3 non-refoulement.
         </p>
         <p className="mb-4 text-[#374151] leading-relaxed">
@@ -137,11 +136,8 @@ export default function HumanRightsFrameworkPage() {
           <a href="https://www.persecutionexpert.com" className="text-[#C8922A] hover:underline" rel="noopener noreferrer">
             persecutionexpert.com
           </a>
-          . For country-specific conditions evidence, see our{" "}
-          <Link href="/country-experts" className="text-[#C8922A] hover:underline">
-            country expert network
-          </Link>
-          . Human rights experts provide the overarching framework; country experts provide detailed local conditions.
+          . Human rights experts on this site focus on treaty standards and violation severity for the appellant&apos;s
+          specific profile, not geographic specialisation.
         </p>
 
         <h2 id="violation-severity-threshold" className="mt-10 scroll-mt-24 text-2xl font-bold text-[#0A2540]">
@@ -152,7 +148,7 @@ export default function HumanRightsFrameworkPage() {
           non-refoulement. Experts assess whether documented violations reach the severity threshold using the criteria below.
         </p>
         <ol className="mb-4 list-decimal space-y-2 pl-6 text-[#374151] leading-relaxed">
-          <li>Whether violations are systematic or isolated in the country of origin</li>
+          <li>Whether violations are systematic or isolated on return</li>
           <li>Whether violations target the appellant&apos;s specific profile or imputed characteristics</li>
           <li>Whether the state is willing and able to prevent further harm on return</li>
           <li>Whether cumulative violations reach the threshold even where individual incidents appear less severe</li>
@@ -174,17 +170,17 @@ export default function HumanRightsFrameworkPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-[#0A2540]">UN Human Rights Mechanisms</h2>
         <p className="mt-4 mb-4 text-[#374151] leading-relaxed">
-          OHCHR country reports, Special Rapporteur thematic and country reports, Universal Periodic Review outcomes, and
+          OHCHR reports, Special Rapporteur thematic reports, Universal Periodic Review outcomes, and
           treaty body concluding observations are authoritative expert sources. CAT, CCPR, CEDAW, and CERD committees
-          publish concluding observations identifying specific human rights concerns by country. Experts use these sources
-          alongside NGO reports, CPINs, and field research to provide analysis beyond Home Office country information
+          publish concluding observations identifying specific human rights concerns. Experts use these sources
+          alongside NGO reports, CPINs, and field research to provide analysis beyond Home Office policy information
           reproduction.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-[#0A2540]">Expert Reports and Human Rights Analysis</h2>
         <p className="mt-4 mb-4 text-[#374151] leading-relaxed">
           Human rights experts apply treaty standards to the appellant&apos;s specific profile, assessing violation severity
-          and return risk with reasoned opinion. Reports address applicable instruments, sources, country conditions
+          and return risk with reasoned opinion. Reports address applicable instruments, sources, conditions on return
           relevant to the profile, violation analysis, return risk opinion, and declaration of independence. Experts go
           beyond CPIN reproduction to apply treaty body standards where CPIN human rights sections are incomplete or
           outdated. See our{" "}
@@ -201,7 +197,7 @@ export default function HumanRightsFrameworkPage() {
           UN Human Rights Council and Special Rapporteur reports for 2025 and 2026 document shrinking civic space globally,
           with increased targeting of human rights defenders, journalists, and activists. Digital surveillance and online
           expression violations are emerging expert evidence themes. Experts assess whether defender and journalist profiles
-          create enhanced return risk beyond general country conditions.
+          create enhanced return risk beyond general conditions on return.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-[#0A2540]">2025–2026 Updates</h2>
@@ -211,7 +207,7 @@ export default function HumanRightsFrameworkPage() {
           Council and treaty body reports for 2025 and 2026 document shrinking civic space globally and increased targeting
           of human rights defenders. Digital surveillance and online expression violations are emerging expert evidence
           themes. Gender apartheid discourse in UN human rights mechanisms informs women&apos;s rights analysis. Home Office
-          CPIN human rights sections have been updated across multiple countries in 2025.
+          CPIN human rights sections have been updated in multiple policy publications during 2025.
         </p>
         <p className="mb-4 text-[#374151] leading-relaxed">
           For Article 3 deportation framework, see our{" "}

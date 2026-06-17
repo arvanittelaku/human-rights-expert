@@ -19,7 +19,6 @@ export const APP_STATIC_PATHS: PublicUrlEntry[] = [
   { path: "/case-types", priority: 0.9, changefreq: "monthly" },
   { path: "/services", priority: 0.9, changefreq: "monthly" },
   { path: "/what-is-a-human-rights-expert-witness", priority: 0.9, changefreq: "monthly" },
-  { path: "/country-experts", priority: 0.88, changefreq: "monthly" },
   { path: "/qualifications", priority: 0.88, changefreq: "monthly" },
   { path: "/how-to-instruct", priority: 0.88, changefreq: "monthly" },
   { path: "/guides", priority: 0.87, changefreq: "monthly" },
